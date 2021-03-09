@@ -1,3 +1,5 @@
+<img src="https://cdn.discordapp.com/attachments/536220497353113628/818817260751290409/img_nav.png" width="400px">
+
 # French-Gaming-Family
 Here is version 2 of the French Gaming Family website. <br>
 This version 2 was made last year and is no longer accessible. <br>
