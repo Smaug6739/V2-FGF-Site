@@ -1,0 +1,205 @@
+@media screen and (max-height: 575px) {
+    .g-recaptcha {
+        transform:scale(0.83);
+        -webkit-transform:scale(0.83);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+}
+
+@media  screen and (max-width: 640px) and (orientation: portrait){
+    #pubs{
+        /*display:none;*/
+        max-width:50%;
+    }
+    
+    #auto {
+        height: 100vh;
+    }
+  
+    header {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-title {
+        display: flex;
+        /*font-family: "VT323";*/
+        font-size:85%;
+        font-family: 'Pacifico', arial;
+    }
+    .ban{
+        width:255px
+    }
+    
+#Gimg {
+    background: url(../img/image-accueil-mobile.jpg) center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+#black {
+    background: url(../img/footer-img.png) center no-repeat;
+   
+    background-size: cover;
+    
+}
+  .ban_redac{
+        width:255px
+    }
+    
+    .nav-title .first {
+        color: red;
+    }
+
+    div#prez p {
+        font-size: 1em;
+    }
+
+    #footer
+    {
+    display:flex;
+    flex-direction: column;
+    margin-left : 30px;
+    zoom: 0.8;
+    }
+    .center
+    {
+        text-align:center;
+    }
+    #thanks {
+        font-size: 0.6em;
+    }
+    
+    /*footer .copy {
+        font-size: 0.8em;
+    }
+    */
+    #thanks h1 {
+        font-size: 1.3em;
+    }
+    
+    fieldset.liste {
+        font-size: 0.8em;
+    }
+    
+    .GIF {
+        max-width : 7%;
+    }
+    
+    #staff_form label {
+        font-size: 0.8em;
+    }
+    
+    #staff_form legend {
+        font-size: 1.5em;
+    }
+    #Gimg
+    {
+     /*display:none; */
+    }
+    .t
+    {
+        max-width:80%;
+    }
+    #none
+    {
+        display:none;
+    }
+    /*
+    * ================================ SERVICES ================================
+    */
+    #zoom{
+        zoom: 0.7;
+    }
+        .emot{
+            max-width : 30%;
+        }
+        .emo{
+            max-width:8%;
+        }
+        
+        /*
+    * ================================ INFOS ================================
+    */
+
+    #infos fieldset.form-group {
+        border: 1px groove #ddd;
+        border-radius: 2px;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+    }
+
+    #infos fieldset#global {
+        border: none!important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+    }
+
+    #infos fieldset.liste {
+        border: 1px groove #ddd !important;
+        border-radius: 2px;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+    }
+
+    #infos fieldset.text {
+        border: 1px groove #ddd !important;
+        border-radius: 2px;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow:  0px 0px 0px 0px #000;
+                box-shadow:  0px 0px 0px 0px #000;
+    }
+    
+    #lastPostsAcc.container-fluid .card, #lastPosts.container-fluid .card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #lastAnnoncesAcc.container-fluid .card, #annonceContent .card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*
+    * ================================ ALBUM ================================
+    */
+    #A{
+        zoom: 0.7;
+    }
+    #annonceart{
+	max-width:85%;
+    }
+    /*
+    *==============================================FOOTER==================================
+    */
+    #delete{
+        display:none;
+    }
+}
+
+@media (max-width: 1100px) {
+    
+    header {
+        display: none;
+    }
+}
+
+@media  screen and (min-width: 1000px){
+    .ban_redac{
+        display:none;
+    }
+
+    iframe {
+        height: 500px;
+    }
+}
